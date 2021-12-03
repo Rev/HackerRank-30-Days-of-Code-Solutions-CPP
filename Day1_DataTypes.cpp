@@ -17,7 +17,7 @@ int main() {
     //Step 2:
     cin >> myint;
     cin >> mydouble;
-    cin.ignore(); //This will ignore the extra line 'cin' creates, that getline() will read. For example, a user will press the 'enter' key (or computer in this case - as HackerRank will be doing the Test cases) to submit their chosen number on the myint, and mystring inputs. Effectively, by pressing 'enter', an '\n' character gets added into the newline. Because of this, the user wouldn't be asked to input for 'mystring' either, as the '\n' would be used.
+    cin.ignore(); //This will ignore the extra line 'cin' creates, that getline() will read. For example, a user will press the 'enter' key (or computer in this case - as HackerRank will be doing the Test cases) to submit their chosen number on the myint, and mydouble inputs. Effectively, by pressing 'enter', an '\n' character gets added into the newline. Because of this, the user wouldn't be asked to input for 'mystring' either, as the '\n' would be used.
     getline(cin, mystring); //We have to use this as doing 'cin >> mystring' will just read a single word, but then stop whenever there's a space (whitespace).
 
     //Step 3:
